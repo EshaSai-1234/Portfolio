@@ -376,6 +376,7 @@ nav {
   gap: 1.5rem;
 }
 
+<<<<<<< HEAD
 .skills-overview-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
@@ -394,6 +395,8 @@ nav {
   font-size: 0.75rem;
 }
 
+=======
+>>>>>>> b96737286c6e735801cd701ef8c9303c1a2b0cd6
 .skill-category {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -543,6 +546,7 @@ nav {
 }
 
 /* PROJECTS GRID */
+<<<<<<< HEAD
 .project-carousel-controls {
   display: flex;
   justify-content: flex-end;
@@ -586,6 +590,15 @@ nav {
 .project-card {
   min-width: 0;
   scroll-snap-align: start;
+=======
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+}
+
+.project-card {
+>>>>>>> b96737286c6e735801cd701ef8c9303c1a2b0cd6
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
@@ -838,6 +851,7 @@ footer {
 }
 
 /* RESPONSIVE DESIGN */
+<<<<<<< HEAD
 @media (max-width: 900px) {
   .skills-overview-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -856,6 +870,8 @@ footer {
   }
 }
 
+=======
+>>>>>>> b96737286c6e735801cd701ef8c9303c1a2b0cd6
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.1rem;
